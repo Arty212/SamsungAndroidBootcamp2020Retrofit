@@ -1,4 +1,4 @@
-package com.example.it2019testretrofit;
+package com.example.it2019testretrofit.model;
 
 import com.google.gson.JsonObject;
 import com.google.gson.annotations.Expose;

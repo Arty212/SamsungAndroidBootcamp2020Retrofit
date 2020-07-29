@@ -1,4 +1,6 @@
-package com.example.it2019testretrofit;
+package com.example.it2019testretrofit.API;
+
+import com.example.it2019testretrofit.API.model.DataResponse;
 
 import retrofit2.Call;
 import retrofit2.http.GET;

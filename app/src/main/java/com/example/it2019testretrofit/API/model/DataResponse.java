@@ -1,5 +1,6 @@
-package com.example.it2019testretrofit;
+package com.example.it2019testretrofit.API.model;
 
+import com.example.it2019testretrofit.model.DataCountry;
 import com.google.gson.annotations.SerializedName;
 
 import java.util.List;
