@@ -8,35 +8,114 @@ public class DataCountry {
 
     @SerializedName("info")
     @Expose(deserialize = false, serialize = false)
-    public JsonObject info;
+    private JsonObject info;
 
     @SerializedName("total_cases")
-    public int totalCases;
+    private int totalCases;
 
     @SerializedName("total_recovered")
-    public int totalRecovered;
+    private int totalRecovered;
 
     @SerializedName("total_unresolved")
-    public int totalUnresolved;
+    private int totalUnresolved;
 
     @SerializedName("total_deaths")
-    public int totalDeaths;
+    private int totalDeaths;
 
     @SerializedName("total_new_cases_today")
-    public int totalNewCasesToday;
+    private int totalNewCasesToday;
 
     @SerializedName("total_new_deaths_today")
-    public int totalNewDeathsToday;
+    private int totalNewDeathsToday;
 
     @SerializedName("total_active_cases")
-    public int totalActiveCases;
+    private int totalActiveCases;
 
     @SerializedName("total_serious_cases")
-    public int totalSeriousCases;
+    private int totalSeriousCases;
 
     @SerializedName("total_danger_rank")
-    public int totalDangerRank;
+    private int totalDangerRank;
 
+    public JsonObject getInfo() {
+        return info;
+    }
+
+    public void setInfo(JsonObject info) {
+        this.info = info;
+    }
+
+    public int getTotalCases() {
+        return totalCases;
+    }
+
+    public void setTotalCases(int totalCases) {
+        this.totalCases = totalCases;
+    }
+
+    public int getTotalRecovered() {
+        return totalRecovered;
+    }
+
+    public void setTotalRecovered(int totalRecovered) {
+        this.totalRecovered = totalRecovered;
+    }
+
+    public int getTotalUnresolved() {
+        return totalUnresolved;
+    }
+
+    public void setTotalUnresolved(int totalUnresolved) {
+        this.totalUnresolved = totalUnresolved;
+    }
+
+    public int getTotalDeaths() {
+        return totalDeaths;
+    }
+
+    public void setTotalDeaths(int totalDeaths) {
+        this.totalDeaths = totalDeaths;
+    }
+
+    public int getTotalNewCasesToday() {
+        return totalNewCasesToday;
+    }
+
+    public void setTotalNewCasesToday(int totalNewCasesToday) {
+        this.totalNewCasesToday = totalNewCasesToday;
+    }
+
+    public int getTotalNewDeathsToday() {
+        return totalNewDeathsToday;
+    }
+
+    public void setTotalNewDeathsToday(int totalNewDeathsToday) {
+        this.totalNewDeathsToday = totalNewDeathsToday;
+    }
+
+    public int getTotalActiveCases() {
+        return totalActiveCases;
+    }
+
+    public void setTotalActiveCases(int totalActiveCases) {
+        this.totalActiveCases = totalActiveCases;
+    }
+
+    public int getTotalSeriousCases() {
+        return totalSeriousCases;
+    }
+
+    public void setTotalSeriousCases(int totalSeriousCases) {
+        this.totalSeriousCases = totalSeriousCases;
+    }
+
+    public int getTotalDangerRank() {
+        return totalDangerRank;
+    }
+
+    public void setTotalDangerRank(int totalDangerRank) {
+        this.totalDangerRank = totalDangerRank;
+    }
 
     @Override
     public String toString() {

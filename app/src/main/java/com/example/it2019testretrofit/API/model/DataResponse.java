@@ -7,7 +7,23 @@ import java.util.List;
 
 public class DataResponse {
     @SerializedName("countrydata")
-    public List<DataCountry> countryData;
+    private List<DataCountry> countryData;
     @SerializedName("stat")
-    public String stat;
+    private String stat;
+
+    public List<DataCountry> getCountryData() {
+        return countryData;
+    }
+
+    public void setCountryData(List<DataCountry> countryData) {
+        this.countryData = countryData;
+    }
+
+    public String getStat() {
+        return stat;
+    }
+
+    public void setStat(String stat) {
+        this.stat = stat;
+    }
 }

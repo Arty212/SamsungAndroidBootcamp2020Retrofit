@@ -32,7 +32,7 @@ public class MainPresenter extends MvpPresenter<IMainView> {
             public void onResponse(Call<DataResponse> call, Response<DataResponse> response) {
                 if (response.body() != null) {
                     dataCountry.clear();
-                    dataCountry.addAll(response.body().countryData);
+                    dataCountry.addAll(response.body().getCountryData());
                     isLoading.set(false);
                 }
             }
